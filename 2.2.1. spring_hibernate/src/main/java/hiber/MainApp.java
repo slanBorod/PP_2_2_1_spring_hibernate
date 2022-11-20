@@ -35,8 +35,8 @@ public class MainApp {
          System.out.println();
       }
 
-         System.out.println(userService.getUserByCarModel("Porsche 911", 1975));
-         context.close();
+      System.out.println(userService.getUserByCarModel("Porsche 911", 1975));
+      context.close();
    }
 }
 
